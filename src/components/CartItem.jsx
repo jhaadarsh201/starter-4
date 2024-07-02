@@ -1,5 +1,5 @@
 
-import { FcDeleteDatabase } from "react-icons/fc"
+// import { FcDeleteDatabase } from "react-icons/fc"
 import { useDispatch } from "react-redux";
 import { remove } from "../redux/Slices/CartSlice";
 import { toast } from "react-hot-toast";
@@ -43,7 +43,7 @@ const CartItem = ({ item, itemIndex }) => {
 <div className="w-full max-w-[40vh] min-h-[40vh] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2
                 hover:scale-110 transition duration-300 ease-in gap-3 p-4 mt-10 ml-5 rounded-xl outline bg-gray-300 opacity-80 hover:opacity-100">
    
-    <img src={item.image} width="200" height="300"/>
+    <img src={item.image} width="200" height="300" alt="Iamge"/>
     <div className="px-5 pb-5">
             <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{item.title}</h5>
         <div className="flex items-center mt-2.5 mb-5">
